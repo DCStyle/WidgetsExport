@@ -1,0 +1,6 @@
+{
+    "from_class": "XF\\Admin\\Controller\\Widget",
+    "to_class": "DC\\WidgetsExport\\XF\\Admin\\Controller\\Widget",
+    "execute_order": 10,
+    "active": true
+}

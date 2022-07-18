@@ -1,0 +1,9 @@
+{
+    "template": "widget_list",
+    "description": "Add widgets import & export button",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "str_replace",
+    "find": "<xf:pageaction>",
+    "replace": "$0\n\n<xf:button href=\"{{ link('widgets/import') }}\"\n\t\t   data-xf-click=\"overlay\"\n\t\t   icon=\"import\">\n\t{{ phrase('import_widgets') }}\n</xf:button>\n\n<xf:button href=\"{{ link('widgets/export') }}\"\n\t\t   data-xf-click=\"overlay\"\n\t\t   icon=\"export\">\n\t{{ phrase('export_widgets') }}\n</xf:button>\n\n<xf:button href=\"{{ link('widgets/delete-all') }}\"\n\t\t   data-xf-click=\"overlay\"\n\t\t   icon=\"delete\">\n\t{{ phrase('delete_all_widgets') }}\n</xf:button>"
+}

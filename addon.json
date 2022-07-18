@@ -1,0 +1,18 @@
+{
+    "legacy_addon_id": "",
+    "title": "D.C Style - Widgets Importer",
+    "description": "Add possibility to export & import widgets.",
+    "version_id": 1000031,
+    "version_string": "1.0.0 Beta 1",
+    "dev": "D.C Style",
+    "dev_url": "https://fb.com/DumpPenguin",
+    "faq_url": "",
+    "support_url": "https://dcstyle.info",
+    "extra_urls": {
+        "Blog": "https://fb.com/dcstylexf"
+    },
+    "require": {
+        "XF": [2020070, "XenForo 2.2.0+"]
+    },
+    "icon": "logo.png"
+}

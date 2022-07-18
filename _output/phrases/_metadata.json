@@ -1,0 +1,50 @@
+{
+    "all_widgets.txt": {
+        "global_cache": false,
+        "version_id": 1000031,
+        "version_string": "1.0.0 Beta 1",
+        "hash": "4cdd8347d68bce43dd4a5959bbe80cc6"
+    },
+    "choose_widgets_to_export.txt": {
+        "global_cache": false,
+        "version_id": 1000031,
+        "version_string": "1.0.0 Beta 1",
+        "hash": "6a7ffa60b757eb12c4e7fe123d63be09"
+    },
+    "delete_all_widgets.txt": {
+        "global_cache": false,
+        "version_id": 1000031,
+        "version_string": "1.0.0 Beta 1",
+        "hash": "0ad4548cb5efd4c99377e5b8166119b1"
+    },
+    "export_widgets.txt": {
+        "global_cache": false,
+        "version_id": 1000031,
+        "version_string": "1.0.0 Beta 1",
+        "hash": "21a00257508ffe6505331ac4917fa967"
+    },
+    "import_widgets.txt": {
+        "global_cache": false,
+        "version_id": 1000031,
+        "version_string": "1.0.0 Beta 1",
+        "hash": "141ab05ad856d7e0af377f5ebc6d88dc"
+    },
+    "import_widgets_explain.txt": {
+        "global_cache": false,
+        "version_id": 1000031,
+        "version_string": "1.0.0 Beta 1",
+        "hash": "80719177d9848d3147cf636c484ec298"
+    },
+    "no_available_widgets_to_export.txt": {
+        "global_cache": false,
+        "version_id": 1000031,
+        "version_string": "1.0.0 Beta 1",
+        "hash": "09edaba83c78285377d6491d2b3b8da4"
+    },
+    "please_upload_valid_widgets_xml_file.txt": {
+        "global_cache": false,
+        "version_id": 1000031,
+        "version_string": "1.0.0 Beta 1",
+        "hash": "f1470f47026454ce9ac6ed88cfeb4ffc"
+    }
+}

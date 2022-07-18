@@ -1,0 +1,16 @@
+<xf:title>{{ phrase('import_widgets') }}</xf:title>
+
+<xf:form action="{{ link('widgets/import') }}" upload="true" ajax="true" class="block">
+	<div class="block-container">
+		<div class="block-body">
+			<xf:uploadrow name="upload" accept=".xml"
+						  label="{{ phrase('import_from_uploaded_xml_file') }}">
+				<xf:explain>
+					{{ phrase('import_widgets_explain') }}
+				</xf:explain>
+			</xf:uploadrow>
+		</div>
+		
+		<xf:submitrow icon="import" />
+	</div>
+</xf:form>

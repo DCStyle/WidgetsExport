@@ -1,0 +1,12 @@
+{
+    "admin/dcWidgetsExport_widgets_export.html": {
+        "version_id": 1000031,
+        "version_string": "1.0.0 Beta 1",
+        "hash": "531bed08de343cb1887265a6ea63964e"
+    },
+    "admin/dcWidgetsExport_widgets_import.html": {
+        "version_id": 1000031,
+        "version_string": "1.0.0 Beta 1",
+        "hash": "c53bdc917d935a5235e43e6593485900"
+    }
+}

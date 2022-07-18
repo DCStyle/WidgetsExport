@@ -1,0 +1,18 @@
+<xf:title>{{ phrase('choose_widgets_to_export') }}</xf:title>
+
+<xf:form action="{{ link('widgets/export') }}" class="block">
+	<div class="block-container">
+		<div class="block-body">
+			<xf:selectrow name="widget_ids[]"
+						  multiple="multiple"
+						  size="7"
+						  label="{{ phrase('widgets') }}">
+				<xf:foreach loop="$widgets" key="$widgetId" value="$widget">
+					<xf:option value="{$widgetId}" label="{$widget.title} [{$widgetId}]" />
+				</xf:foreach>
+			</xf:selectrow>
+		</div>
+		
+		<xf:submitrow icon="export" />
+	</div>
+</xf:form>
